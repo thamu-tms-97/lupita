@@ -57,15 +57,9 @@ public class BirthdayExample {
   }
 
   public static void main(final String[] args) {
-    /*
-     * students will need to change the path below to work on THEIR laptop. this is currently the path for my laptop.
-     * if students do not know or understand what a "path" is, students should first complete the
-     * extra credit module on Files, Directories, and Folders in Canvas.
-     */
+
     String pathToFile =
       "C:\\Users\\thmrt\\OneDrive\\Documents\\SJCC GS\\lupita\\bday\\src\\main\\java\\com\\lupi\\birthday.json";
-
-    // students should change the code below in order to implment their own solution
 
     // initialize the hash map
     initializeMap(pathToFile);
