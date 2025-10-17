@@ -1,4 +1,4 @@
-package com.example;
+package com.lupi;
 
 import java.io.*;
 import java.util.*;
@@ -63,7 +63,7 @@ public class BirthdayExample {
      * extra credit module on Files, Directories, and Folders in Canvas.
      */
     String pathToFile =
-      "C:/Users/jerom/Documents/GitHub/class-java/birthday-lupita-lookup-app/lupita/src/main/java/com/example/birthdayOnlyForTesting.json";
+      "C:\\Users\\thmrt\\OneDrive\\Documents\\SJCC GS\\lupita\\bday\\src\\main\\java\\com\\lupi\\birthdayOnlyForTesting.json";
 
     // students should change the code below in order to implment their own solution
 
