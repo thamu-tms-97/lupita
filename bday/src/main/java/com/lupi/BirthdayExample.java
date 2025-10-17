@@ -81,6 +81,23 @@ public class BirthdayExample {
     // print user input
     System.out.println("name = " + name);
 
+    // Look up birthdays - partial matching for advanced solution
+    boolean name_found = false;
+    
+    // Search for all names containing the input string (case-insensitive)
+    for (String personName : birthdayMap.keySet()) {
+        if (personName.toLowerCase().contains(name.toLowerCase())) {
+            String birthday = birthdayMap.get(personName);
+            System.out.println(personName + "'s birthday is " + birthday);
+            name_found = true;
+        }
+    }
+    
+    // If no match was found, print that the birthday is unknown
+    if (!name_found) {
+        System.out.println("The birthday is unknown");
+    }    
+
     // close the scanner
     input.close();
   }
